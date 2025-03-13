@@ -1,7 +1,10 @@
-# Libraries and infrastructure
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+echo "Libraries and infrastructure..."
 sudo apt update -y >/dev/null
 
-# CLI apps
+echo "Insatlling CLI Apps..."
 sudo apt install -y git curl fzf ripgrep fd btop >/dev/null
 sudo apt install -y alacritty
 
