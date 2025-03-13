@@ -2,11 +2,11 @@
 set -e
 
 echo "Libraries and infrastructure..."
-sudo apt update -y >/dev/null
+sudo apt update -y
 
 echo "Insatlling CLI Apps..."
-sudo apt install -y git curl fzf ripgrep fd btop >/dev/null
-sudo apt install -y alacritty >/dev/null
+sudo apt install -y git curl fzf ripgrep fd btop
+sudo apt install -y alacritty
 
 echo "Cloning Zaidan..."
 rm -rf ~/.local/share/zaidan
