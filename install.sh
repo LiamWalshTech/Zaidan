@@ -28,9 +28,9 @@ source ~/.local/share/zaidan/install/chrome.sh
 # source ~/.local/share/zaidan/install/ulauncher.sh
 source ~/.local/share/zaidan/install/neovim.sh
 # source ~/.local/share/zaidan/install/lazygit.sh
-# source ~/.local/share/zaidan/install/lazydocker.sh
+source ~/.local/share/zaidan/install/docker.sh
+source ~/.local/share/zaidan/install/lazydocker.sh
 # source ~/.local/share/zaidan/install/gh.sh
-# source ~/.local/share/zaidan/install/docker.sh
 
 echo "Configuration"
 
