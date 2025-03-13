@@ -11,7 +11,7 @@ sudo snap install 1password vlc
 # source install/chrome.sh
 # source install/fonts.sh
 # source install/ulauncher.sh
-# source install/neovim.sh
+source install/neovim.sh
 # source install/lazygit.sh
 # source install/lazydocker.sh
 # source install/gh.sh
