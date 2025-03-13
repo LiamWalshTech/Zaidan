@@ -12,12 +12,12 @@ eval "$(wget -qO- https://raw.githubusercontent.com/LiamWalshTech/Zaidan/refs/he
 - [ ] A better terminal
 - [x] Chrome
 - [x] Git
-- [ ] GitHub cli
+- [x] GitHub cli
 - [ ] Cursor
 - [x] 1Password
-- [ ] Ulauncher
+- [x] Ulauncher
 - [x] Lazy Docker
-- [ ] Lazy Git
+- [x] Lazy Git
 - [ ] Node
 - [ ] NVM
 - [ ] Go
