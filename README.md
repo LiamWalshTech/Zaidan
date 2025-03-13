@@ -7,22 +7,22 @@ eval "$(wget -qO- https://raw.githubusercontent.com/LiamWalshTech/Zaidan/refs/he
 ```
 
 ## List of things I want
-- [ ] Neovim
-- [ ] Tmux
+- [x] Neovim
+- [x] Tmux
 - [ ] A better terminal
-- [ ] Chrome
-- [ ] Git
+- [x] Chrome
+- [x] Git
 - [ ] GitHub cli
 - [ ] Cursor
-- [ ] 1Password
+- [x] 1Password
 - [ ] Ulauncher
-- [ ] Lazy Docker
+- [x] Lazy Docker
 - [ ] Lazy Git
 - [ ] Node
 - [ ] NVM
 - [ ] Go
-- [ ] btop
-- [ ] curl
+- [x] btop
+- [x] curl
 - Gnome customisations
   - [ ] Touchpad tap click off
   - [ ] Sidebar off
