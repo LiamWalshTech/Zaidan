@@ -1,6 +1,11 @@
 # Zaidan
 My Ubuntu Setup
 
+## Setup Command
+```bash
+eval "$(wget -qO- https://raw.githubusercontent.com/LiamWalshTech/Zaidan/refs/heads/master/install.sh)"
+```
+
 ## List of things I want
 - Neovim
 - Tmux
