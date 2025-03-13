@@ -6,14 +6,3 @@ sudo cp -R nvim-linux-x86_64/lib /usr/local/
 sudo cp -R nvim-linux-x86_64/share /usr/local/
 rm -rf nvim-linux-x86_64 nvim.tar.gz
 cd -
-
-# Install luarocks and tree-sitter-cli to resolve lazyvim :checkhealth warnings
-sudo apt install -y luarocks nvim-treesitter
-
-# Only attempt to set configuration if Neovim has never been run
-if [ ! -d "$HOME/.config/nvim" ]; then
-  # Use LazyVim
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
-  # Remove the .git folder, so you can add it to your own repo later
-  rm -rf ~/.config/nvim/.git
-fi
