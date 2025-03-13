@@ -6,7 +6,7 @@ sudo apt update -y >/dev/null
 
 echo "Insatlling CLI Apps..."
 sudo apt install -y git curl fzf ripgrep fd btop >/dev/null
-sudo apt install -y alacritty
+sudo apt install -y alacritty >/dev/null
 
 echo "Cloning Zaidan..."
 rm -rf ~/.local/share/zaidan
