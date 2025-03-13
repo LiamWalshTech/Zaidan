@@ -18,9 +18,9 @@ eval "$(wget -qO- https://raw.githubusercontent.com/LiamWalshTech/Zaidan/refs/he
 - [x] Ulauncher
 - [x] Lazy Docker
 - [x] Lazy Git
-- [ ] Node
-- [ ] NVM
-- [ ] Go
+- [x] Node
+- [x] NVM
+- [x] Go
 - [x] btop
 - [x] curl
 - Gnome customisations
