@@ -8,9 +8,6 @@ echo "Cloning Zaidan..."
 rm -rf ~/.local/share/zaidan
 git clone https://github.com/LiamWalshTech/Zaidan.git ~/.local/share/zaidan >/dev/null
 
-echo "Installation starting..."
-source ~/.local/share/zaidan/install.sh
-
 echo "GUI Apps..."
 sudo snap install 1password vlc
 
