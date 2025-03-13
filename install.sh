@@ -32,6 +32,7 @@ source ~/.local/share/zaidan/install/lazydocker.sh
 source ~/.local/share/zaidan/install/lazygit.sh
 source ~/.local/share/zaidan/install/neovim.sh
 source ~/.local/share/zaidan/install/nvm.sh
+source ~/.local/share/zaidan/install/pnpm.sh
 source ~/.local/share/zaidan/install/ulauncher.sh
 
 echo "Configuration"
