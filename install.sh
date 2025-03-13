@@ -2,7 +2,7 @@
 sudo apt update -y >/dev/null
 
 # CLI apps
-sudo apt install -y git curl btop >/dev/null
+sudo apt install -y git curl fzf ripgrep fd btop >/dev/null
 
 echo "Cloning Zaidan..."
 rm -rf ~/.local/share/zaidan
