@@ -5,7 +5,7 @@ echo "Libraries and infrastructure..."
 sudo apt update -y
 
 echo "Insatlling cli apps..."
-sudo apt install -y git curl fzf ripgrep fd btop
+sudo apt install -y git curl fzf btop
 
 echo "Installing better terminal"
 sudo apt install -y alacritty
