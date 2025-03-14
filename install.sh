@@ -40,3 +40,11 @@ echo "Configuration"
 
 echo "Cleanup..."
 sudo apt autoremove -y
+
+if pgrep -x "i3" > /dev/null
+then
+  echo "Congratulations you're in i3 and done"
+else
+  echo "You'll need to logout to be able to switch to i3"
+  gnome-session-quit --logout
+fi
