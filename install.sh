@@ -1,5 +1,5 @@
-# # Exit immediately if a command exits with a non-zero status
-# set -e
+# Exit immediately if a command exits with a non-zero status
+set -e
 
 echo "Libraries and infrastructure..."
 sudo apt update -y
@@ -37,3 +37,6 @@ echo "Configuration"
 
 # # Start
 # gh auth login
+
+echo "Cleanup..."
+sudo apt autoremove -y
