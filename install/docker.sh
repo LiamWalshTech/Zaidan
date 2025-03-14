@@ -15,6 +15,6 @@ sudo apt-get update -y
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
 sudo docker run hello-world
 
-curl https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb
+curl -o https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb
 sudo apt-get install -y ./docker-desktop-amd64.deb
 rm ./docker-desktop-amd64.deb
