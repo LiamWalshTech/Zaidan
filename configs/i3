@@ -184,3 +184,5 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+new_window 1pixel
