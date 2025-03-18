@@ -149,15 +149,32 @@ new_window 1pixel
 
 # Gaps
 gaps inner 10
-gaps outer -4
+gaps outer 5
 
 smart_gaps on
 
-# Theme colors
-client.focused          #272827 #272827 #657b83 #272827 #272827
-client.focused_inactive #272827 #272827 #657b83 #272827 #272827
-client.unfocused        #272827 #272827 #657b83 #272827 #272827
-client.urgent           #272827 #272827 #657b83 #272827 #272827
-client.placeholder      #272827 #272827 #657b83 #272827 #272827
+# Set colors from xrdb. Colors must be set in xrdb before i3 config is loaded.
+set_from_resource $base00 color0  #000000
+set_from_resource $base01 color18 #000000
+set_from_resource $base02 color19 #000000
+set_from_resource $base03 color8  #000000
+set_from_resource $base04 color20 #000000
+set_from_resource $base05 color7  #000000
+set_from_resource $base06 color21 #000000
+set_from_resource $base07 color15 #000000
+set_from_resource $base08 color1  #000000
+set_from_resource $base09 color16 #000000
+set_from_resource $base0A color11 #000000
+set_from_resource $base0B color2  #000000
+set_from_resource $base0C color14 #000000
+set_from_resource $base0D color12 #000000
+set_from_resource $base0E color5  #000000
+set_from_resource $base0F color17 #000000
+
+#                       class   border  backgr. text indicator
+client.focused          $base05 $base05 $base00 $base05
+client.focused_inactive $base03 $base03 $base05 $base03
+client.unfocused        $base03 $base03 $base05 $base00
+client.urgent           $base01 $base01 $base05 $base00
 
 client.background       #272827
