@@ -50,3 +50,6 @@ else
   echo "You'll need to logout to be able to switch to i3"
   gnome-session-quit --logout
 fi
+
+echo "Reload bash..."
+source ~/.bashrc
