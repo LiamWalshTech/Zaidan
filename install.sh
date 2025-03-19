@@ -23,7 +23,7 @@ sudo snap install 1password vlc
 echo "Installers"
 source ~/.local/share/zaidan/install/chrome.sh
 source ~/.local/share/zaidan/install/docker.sh
-# source ~/.local/share/zaidan/install/fonts.sh
+source ~/.local/share/zaidan/install/fonts.sh
 source ~/.local/share/zaidan/install/gh.sh
 source ~/.local/share/zaidan/install/go.sh
 source ~/.local/share/zaidan/install/i3wm.sh
