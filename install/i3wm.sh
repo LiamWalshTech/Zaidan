@@ -1,5 +1,5 @@
 # Install desktop UI packages
-sudo apt install -y i3 feh
+sudo apt install -y i3 feh rofi
 
 # Copy across config for keyboard and mouse things
 sudo mv ~/.local/share/zaidan/configs/X11/40-libinput.conf /usr/share/X11/xorg.conf.d/40-libinput.conf
@@ -12,6 +12,9 @@ sudo mv ~/.local/share/zaidan/configs/polybar/config.ini ~/.config/polybar/confi
 
 # Copy across i3 config
 sudo mv ~/.local/share/zaidan/configs/i3/config ~/.config/i3/config
+
+# Copy across Rofi config
+sudo mv ~/.local/share/zaidan/configs/rofi ~/.config/i3/config
 
 # Move desktop background image
 sudo mkdir -p ~/.config/assets
