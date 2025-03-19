@@ -21,6 +21,7 @@ echo "GUI apps..."
 sudo snap install 1password vlc
 
 echo "Installers"
+source ~/.local/share/zaidan/install/bashrc.sh
 source ~/.local/share/zaidan/install/chrome.sh
 source ~/.local/share/zaidan/install/docker.sh
 source ~/.local/share/zaidan/install/fonts.sh
