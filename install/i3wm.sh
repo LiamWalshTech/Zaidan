@@ -14,6 +14,7 @@ sudo mv ~/.local/share/zaidan/configs/polybar/config.ini ~/.config/polybar/confi
 sudo mv ~/.local/share/zaidan/configs/i3/config ~/.config/i3/config
 
 # Move desktop background image
+sudo mkdir -p ~/.config/assets
 sudo mv ~/.local/share/zaidan/assets/background.png ~/.config/assets/background.png
 
 sudo apt install -y polybar
