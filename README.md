@@ -15,7 +15,7 @@ eval "$(wget -qO- https://raw.githubusercontent.com/LiamWalshTech/Zaidan/refs/he
 - [x] GitHub cli
 - [ ] Cursor
 - [x] 1Password
-- [x] Ulauncher
+- [ ] Rofi
 - [x] Lazy Docker
 - [x] Lazy Git
 - [x] Node
@@ -24,9 +24,9 @@ eval "$(wget -qO- https://raw.githubusercontent.com/LiamWalshTech/Zaidan/refs/he
 - [x] btop
 - [x] curl
 - Gnome customisations
-  - [ ] Touchpad tap click off
-  - [ ] Sidebar off
-  - [ ] Window tiling manager
+  - [x] Touchpad tap click off
+  - [x] Sidebar off
+  - [x] Window tiling manager
   - [ ] Font bigger
   - [ ] Better theme
 - Remove
