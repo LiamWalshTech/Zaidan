@@ -1,0 +1,32 @@
+# File system
+alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
+
+# Directories
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Tools
+alias n='nvim'
+alias g='git'
+alias d='docker'
+alias bat='batcat'
+alias lzg='lazygit'
+alias lzd='lazydocker'
+
+# Git
+alias gcm='git commit -m'
+alias gcam='git commit -a -m'
+alias gcad='git commit -a --amend'
+
+# Technicolor dreams
+force_color_prompt=yes
+color_prompt=yes
+
+# Simple prompt with path in the window/pane title and caret for typing line
+PS1=$'\uf0a9 '
+PS1="\[\e]0;\w\a\]$PS1"
+
+# Editor used by CLI
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
