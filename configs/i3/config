@@ -52,7 +52,7 @@ bindsym $mod+Shift+q kill
 
 # start Rofi (a program launcher)
 bindsym $mod+d exec rofi -show combi
-bindsym $mod+Space exec rofi -show combi
+bindsym $mod+space exec rofi -show combi
 
 # change focus
 bindsym $mod+j focus left
