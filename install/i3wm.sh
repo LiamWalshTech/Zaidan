@@ -14,7 +14,7 @@ sudo mv ~/.local/share/zaidan/configs/polybar/config.ini ~/.config/polybar/confi
 sudo mv ~/.local/share/zaidan/configs/i3/config ~/.config/i3/config
 
 # Copy across Rofi config
-sudo mv ~/.local/share/zaidan/configs/rofi ~/.config/i3/config
+sudo mv ~/.local/share/zaidan/configs/rofi/ ~/.config/rofi/
 
 # Move desktop background image
 sudo mkdir -p ~/.config/assets
