@@ -55,4 +55,5 @@ fi
 rm -rf ~/.local/share/zaidan
 
 echo "Reload bash..."
+touch ~/.config/alacritty/alacritty.toml
 source ~/.bashrc
