@@ -1,5 +1,5 @@
 # Install desktop UI packages
-sudo apt install -y i3 feh rofi
+sudo apt install -y i3 feh rofi picom
 
 # Copy across config for keyboard and mouse things
 sudo mv ~/.local/share/zaidan/configs/X11/40-libinput.conf /usr/share/X11/xorg.conf.d/40-libinput.conf

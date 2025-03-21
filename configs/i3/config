@@ -13,6 +13,7 @@ set $mod Mod4
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/.config/assets/background.png
+exec_always --no-startup-id picom -b
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
