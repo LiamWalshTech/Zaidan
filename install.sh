@@ -7,15 +7,15 @@ sudo apt update -y
 echo "Insatlling cli apps..."
 sudo apt install -y git curl fzf btop xclip
 
-echo "Installing better terminal"
-sudo apt install -y alacritty
-
-echo "Installing tmux..."
-sudo apt install -y tmux
-
 echo "Cloning Zaidan..."
 rm -rf ~/.local/share/zaidan
 git clone https://github.com/LiamWalshTech/Zaidan.git ~/.local/share/zaidan >/dev/null
+
+echo "Installing better terminal"
+source ~/.local/share/zaidan/install/alacritty.sh
+
+echo "Installing tmux..."
+sudo apt install -y tmux
 
 echo "GUI apps..."
 sudo snap install 1password vlc
