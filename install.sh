@@ -52,5 +52,7 @@ else
   gnome-session-quit --logout
 fi
 
+rm -rf ~/.local/share/zaidan
+
 echo "Reload bash..."
 source ~/.bashrc
