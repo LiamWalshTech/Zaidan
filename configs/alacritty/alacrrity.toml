@@ -1,6 +1,6 @@
 # General Settings
 [window]
-opacity = 0.9
+opacity = 0.5
 
 padding.x = 10
 padding.y = 10
@@ -9,4 +9,5 @@ decorations = "Full"
 decorations_theme_variant = "Dark"
 
 [font]
-size = 15.0
+size = 12.0
+
