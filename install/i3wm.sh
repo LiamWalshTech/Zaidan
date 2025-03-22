@@ -21,4 +21,12 @@ sudo mv -f ~/.local/share/zaidan/configs/rofi/ ~/.config/rofi/
 sudo mkdir -p ~/.config/assets
 sudo mv ~/.local/share/zaidan/assets/background.png ~/.config/assets/background.png
 
+# Polybar
 sudo apt install -y polybar
+
+## Stuff for better lock screen
+# Stuff for i3lock-color
+sudo apt install -y autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
+sudo apt install -y imagemagick bc xdpyinfo xrandr xrdb xset dunst
+wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | sudo bash -s system
+betterlockscreen -u ~/.config/assets/background.png -w
