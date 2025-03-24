@@ -1,6 +1,9 @@
 # Install desktop UI packages
 sudo apt install -y i3 feh rofi picom
 
+# Install useful cli packages
+sudo apt install -y maim xclip xdotool
+
 # Copy across config for keyboard and mouse things
 sudo mv ~/.local/share/zaidan/configs/X11/40-libinput.conf /usr/share/X11/xorg.conf.d/40-libinput.conf
 
