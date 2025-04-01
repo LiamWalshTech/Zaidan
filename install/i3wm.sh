@@ -7,6 +7,9 @@ sudo apt install -y maim xclip xdotool
 # Copy across config for keyboard and mouse things
 sudo mv ~/.local/share/zaidan/configs/X11/40-libinput.conf /usr/share/X11/xorg.conf.d/40-libinput.conf
 
+# Polybar
+sudo apt install -y polybar
+
 # Copy across Polybar config
 sudo mkdir -p ~/.config/polybar
 sudo mv ~/.local/share/zaidan/configs/polybar/launch.sh ~/.config/polybar/launch.sh
@@ -23,9 +26,6 @@ sudo mv -f ~/.local/share/zaidan/configs/rofi/ ~/.config/rofi/
 # Move desktop background image
 sudo mkdir -p ~/.config/assets
 sudo mv ~/.local/share/zaidan/assets/background.png ~/.config/assets/background.png
-
-# Polybar
-sudo apt install -y polybar
 
 ## Stuff for better lock screen
 # Stuff for i3lock-color
