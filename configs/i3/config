@@ -14,6 +14,7 @@ exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/.config/assets/background.png
 exec_always --no-startup-id picom -b
+exec_always --no-startup-id xrandr --output HDMI-1 --auto --same-as eDP
 exec --no-startup-id betterlockscreen -w dim
 bindsym $mod+shift+x exec betterlockscreen -l dim
 
