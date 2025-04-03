@@ -15,7 +15,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/.config/assets/background.png
 exec_always --no-startup-id picom -b
 # Set display mode to mirroring
-exec_always --no-startup-id xrandr --output HDMI-1 --same-as eDP-1 --mode 1920x1080 --scale 1x1
+exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1200 --pos 0x0 --output HDMI-1 --same-as eDP-1 --mode 1920x1080 --scale-from 1920x1200
 exec --no-startup-id betterlockscreen -w dim
 bindsym $mod+shift+x exec betterlockscreen -l dim
 
