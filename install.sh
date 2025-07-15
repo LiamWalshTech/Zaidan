@@ -14,9 +14,6 @@ git clone https://github.com/LiamWalshTech/Zaidan.git ~/.local/share/zaidan >/de
 echo "Installing better terminal"
 source ~/.local/share/zaidan/install/alacritty.sh
 
-echo "Installing tmux..."
-sudo apt install -y tmux
-
 echo "GUI apps..."
 sudo snap install 1password vlc
 
@@ -33,6 +30,7 @@ source ~/.local/share/zaidan/install/lazydocker.sh
 source ~/.local/share/zaidan/install/lazygit.sh
 source ~/.local/share/zaidan/install/neovim.sh
 source ~/.local/share/zaidan/install/nvm.sh
+source ~/.local/share/zaidan/install/tmux.sh
 source ~/.local/share/zaidan/install/pnpm.sh
 
 echo "Configuration"
