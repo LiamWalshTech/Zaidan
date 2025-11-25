@@ -14,18 +14,40 @@ alias bat='batcat'
 alias lzg='lazygit'
 alias lzd='lazydocker'
 
-# Git
-alias gcm='git commit -m'
-alias gcam='git commit -a -m'
-alias gcad='git commit -a --amend'
+# Bash prompt
+parse_git() {
+    if git rev-parse --show-toplevel >/dev/null 2>&1; then
+        local repo=$(basename "$(git rev-parse --show-toplevel)")
+        local branch=$(git rev-parse --abbrev-ref HEAD)
+        echo "  \[\e[38;5;108m\]($repo  $branch)\[\e[0m\]"
+    fi
+}
+
+__prompt_command() {
+    local exit=$?
+
+    # Add blank line only if this is NOT the very first prompt
+    [[ -n "${__prompt_command_ran:-}" ]] && printf '\n'
+
+    # Path + git info in calm nord cyan
+    PS1="\[\e[38;5;109m\]\w\[\e[0m\]$(parse_git)\n"
+
+    # Prompt arrow in bright nord green (success) or nord red (fail) — stands out from normal output
+    if [[ $exit -eq 0 ]]; then
+        PS1+="\[\e[38;5;150;1m\]❯\[\e[0m\] "      # bright bold green
+    else
+        PS1+="\[\e[38;5;203;1m\]✘\[\e[0m\] "      # bright bold red
+    fi
+
+    # Mark that we've shown at least one prompt
+    __prompt_command_ran=1
+}
+
+PROMPT_COMMAND=__prompt_command
 
 # Technicolor dreams
 force_color_prompt=yes
 color_prompt=yes
-
-## Simple prompt with path in the window/pane title and caret for typing line
-# PS1=$'\uf0a9 '
-# PS1="\[\e]0;\w\a\]$PS1"
 
 # Editor used by CLI
 export EDITOR="nvim"
